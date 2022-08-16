@@ -1,12 +1,18 @@
-# Variables
+# Getting User Input
 
-name = "Muzahid"
-age = 23
-cgpa = 4.60
+# input always string
+name = input("Enter Your Name: ")
+age = input("Enter Your Age: ")
+gpa = input("Enter Your gpa: ")
 
-print("our new student name is "+name)
-print(name+" Live in Dhaka")
-print("He is currently", age , "years old")
-print("At the age of",age ,"he has started to learn Python")
-print(name+"has scored",cgpa,"in her Secondary exam")
+print(" Student Information")
+print("----------------------")
+print("Name : "+name)
+print("Age : "+age)
+print("GPA : "+gpa)
 
+num1 = input("Enter first number: ")
+num2 = input("Enter first number: ")
+
+sum = int(num1) + int(num2)
+print("The sum is ", sum)
