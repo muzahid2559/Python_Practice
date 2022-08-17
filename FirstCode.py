@@ -1,11 +1,13 @@
-# Pattern Printing
+# To check a number is armstrong or not
+digit = int(input("Enter the number"))
+temp = digit
+sum = 0
 
-row = int(input())
-count = 0
-for i in range(0, row):
-    for j in range(0, row-i-1):
-        print(end=" ")
-    count = count+1
-    for k in range(0,i+count):
-        print("*",end="")
-    print(" ")
+while digit !=0:
+    digit_mod = digit % 10
+    digit = digit // 10
+    sum = sum + digit_mod**3
+if sum == temp:
+    print("The number is armstrong")
+else:
+    print("The number is not armstrong")
