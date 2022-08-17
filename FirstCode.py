@@ -1,11 +1,11 @@
-# A program to check whether a year is leap year or not
+# Pattern Printing
 
-year = int(input("Enter the year to check :"))
-if year % 400 == 0:
-    print("It is a leap year")
-elif year % 100 == 0:
-    print("It is not a leap year")
-elif year % 4 == 0:
-    print("It is a leap year")
-else :
-    print("It is not a leap year")
+row = int(input())
+count = 0
+for i in range(0, row):
+    for j in range(0, row-i-1):
+        print(end=" ")
+    count = count+1
+    for k in range(0,i+count):
+        print("*",end="")
+    print(" ")
