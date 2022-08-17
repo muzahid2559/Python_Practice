@@ -3,7 +3,7 @@
 
 A = input('Enter First Number : ')
 B = input('Enter Second Number : ')
-C = input('Enter First Number : ')
+C = input('Enter Third Number : ')
 
 if A > B:
     if A > C:
