@@ -1,9 +1,18 @@
-# For Loop
+# use of infinite Loop and break statement
+while True:
+    name = input("Please Enter your Name :")
+    if name == "Muzahid":
+        break
+    print(name)
+print("Thank You")
 
-for i in range(1, 5):
-    print(i)
-
-for i in range(1, 10, 2):
-    print(i)
-for i in range(10, -3, -2):
-    print(i)
+# use of infinite Loop and continue statement
+while True:
+    name = input("Who are you :")
+    if name == "Batman":
+        continue
+    print("Hello There "+name+" What is your password")
+    password = input()
+    if password == "icecream":
+        break
+print("Thank You")
