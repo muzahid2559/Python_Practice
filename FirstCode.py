@@ -1,12 +1,6 @@
-# function
-def sum(x, y):
-    return x+y
-a = sum(7,8)
-print(a)
+# keyword argument - end
+print("hello",end=" ")
+print("world")
 
-
-def name(name):  # function defination
-    print("My name is "+name)
-
-my_name = input("Enter Your Neme : ")
-name(my_name)  # function call
+# keyword argument - sep
+print("a","b","c","d" ,sep=",")
