@@ -1,9 +1,7 @@
-# Ternary Operator
-# Find the largest number out of two numbers
+# While Loop
 
-A = input('Enter First Number : ')
-B = input('Enter Second Number : ')
-
-Max = A if A > B else B  # Ternary Operator
-
-print("largest number ", Max)
+x = 0
+while x <= 5:
+    print(x)
+    x = x+1
+print("Loop ends")
