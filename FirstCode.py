@@ -1,21 +1,8 @@
-# Open a file
-f = open("a.txt","w")
+# Dictionaries
 
+my_stuff = {'book':'cookbook' ,'phone':'iphone' ,'Home':'Bangladesh'}
+print(my_stuff['book'])
 
-# getting some info
+x = {0:1, 1:5, 3:5}
+print(x[3])
 
-print("name =",f.name)
-print("is it closed? ",f.closed)
-print("mode",f.mode)
-f.write("Python is my favorite language.")
-
-# appending to a file
-
-f = open("a.txt","a")
-f.write("I also love JavaScript.")
-f.close()
-
-# r+ functionaly
-f = open("a.txt","r+")
-info = f.read()
-print(info)
