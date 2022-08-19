@@ -1,12 +1,11 @@
-# Order of Dictionaries
+# concatinating two Dictionaries
 
 x = {1:8, 2:9}
-y = {2:9, 1:8}
-print(x==y)
+y = {3:9, 4:8}
 
-# Order of list
+z = x.copy()
+z.update(y)
+print(z)
 
-u = [1,9]
-v = [9,1]
-print(u==v)
+
 
