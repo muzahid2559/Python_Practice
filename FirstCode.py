@@ -1,18 +1,14 @@
-# fibonacci sequence - 0 1 1 2 3 5 13
+# list of movies that i loves
+fav_movie = []
 
-def fibonacci(n):
-    if n == 0:
-        return 0
-    else:
-        x = 0
-        y = 1
-        print(x)
-        print(y)
-        for i in range(1,n):
-            z = x+y
-            x = y
-            y = z
-            print(z)
+while True:
+    print("movie no 1" +str(len(fav_movie)+1) + "or press enter to stop adding to the list.")
+    movie = input()
 
-fibonacci(4)
-
+    if movie == "":
+        break
+    fav_movie = fav_movie+[movie]
+if len(fav_movie) != 0:
+    print("the lists are ")
+    for i in range(len(fav_movie)):
+        print(fav_movie[i])
