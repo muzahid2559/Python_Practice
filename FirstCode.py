@@ -1,8 +1,12 @@
-# Dictionaries
+# Order of Dictionaries
 
-my_stuff = {'book':'cookbook' ,'phone':'iphone' ,'Home':'Bangladesh'}
-print(my_stuff['book'])
+x = {1:8, 2:9}
+y = {2:9, 1:8}
+print(x==y)
 
-x = {0:1, 1:5, 3:5}
-print(x[3])
+# Order of list
+
+u = [1,9]
+v = [9,1]
+print(u==v)
 
