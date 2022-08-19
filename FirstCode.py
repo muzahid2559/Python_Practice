@@ -1,10 +1,5 @@
-# The in and not in keywords:
+# Assuming multiple values at once:
 
-my_tech = ["iphone","android","ASUS laptop","monitor"]
-
-name = input("Enter a tech name: ")
-if name not in my_tech:
-    print("Nope its not in the list")
-
-else:
-    print(name +" is my techh")
+chocolate_milk = ['chocolate','milk','ice_cream']
+x,y,z = chocolate_milk
+print(x,y,z)
